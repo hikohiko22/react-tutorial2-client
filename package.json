@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@auth0/auth0-react": "^1.6.0",
     "bulma": "^0.9.3",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
