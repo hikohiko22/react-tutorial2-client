@@ -10,7 +10,7 @@ render(
     clientId={process.env.REACT_APP_AUTH0_CLIENT_ID}
     redirectUri={window.location.origin}
   >
-     <App />
+    <App />
   </Auth0Provider>,
   document.querySelector("#content")
-)
+);

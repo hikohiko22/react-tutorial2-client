@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
-import { RootPage } from "./Root.js";
+import { RootPage } from "./pages/Root.js";
 import { RestaurantDetailPage } from "./pages/RestaurantDetail.js";
 import { RestaurantListPage } from "./pages/RestaurantList.js";
 

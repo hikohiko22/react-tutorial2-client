@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { getRestaurants } from "./api.js";
-import { Loading, Restaurant } from "./components";
+import { getRestaurants } from "../api.js";
+import { Loading, Restaurant } from "../components";
 
 export function RootPage() {
   const [restaurants, setRestaurants] = useState(null);
